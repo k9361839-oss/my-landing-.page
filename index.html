@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>דף נחיתה - חנות תוספים</title>
+    <title>מה זה AI - הורדת תוסף</title>
     <style>
         :root {
             --primary-color: #007bff;
@@ -21,7 +21,6 @@
             background-color: #fff;
         }
 
-        /* חלק עליון - כותרת וקישור למפתח */
         nav {
             padding: 15px 5%;
             background: #fff;
@@ -37,7 +36,6 @@
             text-decoration: none;
         }
 
-        /* חלק מרכזי - Hero Section */
         .hero {
             padding: 60px 5%;
             text-align: center;
@@ -56,24 +54,28 @@
             margin: 0 auto 30px;
         }
 
+        /* עיצוב הכפתור שייראה בולט */
         .cta-button {
             display: inline-block;
             background: var(--secondary-color);
             color: white;
-            padding: 15px 35px;
+            padding: 18px 40px;
             border-radius: 50px;
             text-decoration: none;
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             font-weight: bold;
-            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
-            transition: transform 0.2s;
+            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4);
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
         }
 
         .cta-button:hover {
             transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(40, 167, 69, 0.5);
+            background: #218838;
         }
 
-        /* חלק היתרונות */
         .features {
             padding: 50px 5%;
             display: grid;
@@ -95,7 +97,6 @@
             color: var(--primary-color);
         }
 
-        /* חלק המדריך (איך מתקינים) */
         .how-to {
             background: var(--bg-light);
             padding: 50px 5%;
@@ -120,14 +121,15 @@
 <body>
 
 <nav>
-    <div class="logo">תוסף מה זה AI ללא צורך בapi</div>
-    <a href="https://www.google.com/search?q=https://drive.google.com/uc%3Fexport%3Ddownload%26id%3D1X1y3mS3I4G_vM5Y5_5Y5Y5Y5Y5Y5Y5Y">פותח ע"י י.ר.ק</a>
+    <div class="logo"><strong>תוסף מה זה AI</strong> - ללא צורך ב-API</div>
+    <a href="https://mitmachim.top/user/%D7%99.%D7%A8.%D7%A7" class="dev-link">פותח ע"י י.ר.ק</a>
 </nav>
 
 <section class="hero">
     <h1>מה זה AI</h1>
-    <p>הדרך המהירה ביותר להבין כל מושג! סימון מילה ולחיצה ימנית יציגו לכם הסבר מדויק מהמכלול או ממאגר ידע חכם</p>
-    <a href="https://drive.google.com/*******uc?export=download&id=1X1y3mS3I4G_vM5Y5_5Y5Y5Y5Y5Y5Y5Y">הורדה מיידית (קובץ ZIP)</a>
+    <p>הדרך המהירה ביותר להבין כל מושג! סימון מילה ולחיצה ימנית יציגו לכם הסבר מדויק מהמכלול או ממאגר ידע חכם.</p>
+    
+    <a href="https://drive.google.com/uc?export=download&id=1X1y3mS3I4G_vM5Y5_5Y5Y5Y5Y5Y5Y5Y" class="cta-button" download>הורד את התוסף עכשיו (ZIP)</a>
 </section>
 
 <section class="features">
@@ -148,11 +150,11 @@
 <section class="how-to">
     <h2>איך מתקינים?</h2>
     <div class="steps">
-        <p>1. מורידים את קובץ ה-ZIP מהכפתור למעלה
-            זכרו להסיר ככוביות מהקישור למעלה.</p>
-        <p>2. מחלצים את התיקייה למקום בטוח במחשב.</p>
-        <p>3. נכנסים לכתובת <strong>chrome://extensions</strong> בדפדפן.</p>
-        <p>4. מפעילים <strong>"מצב מפתח"</strong> וגוררים את התיקייה פנימה.</p>
+        <p>1. לוחצים על כפתור ההורדה הירוק למעלה.</p>
+        <p>2. מחלצים את תוכן תיקיית ה-ZIP למקום קבוע במחשב.</p>
+        <p>3. נכנסים בדפדפן לכתובת: <code>chrome://extensions</code></p>
+        <p>4. מפעילים את <strong>"מצב מפתח"</strong> (Developer mode) בפינה העליונה.</p>
+        <p>5. לוחצים על <strong>"טען תוסף שלא נארז"</strong> ובוחרים בתיקייה שחילצתם.</p>
     </div>
 </section>
 
